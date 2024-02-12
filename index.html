@@ -388,6 +388,81 @@
                 </ul>
             </div>
         </div>
+        <div class="footer-form-sub">
+            <p class="footer-form-title">Subscribe</p>
+            <form class="footer-form">
+                <label class="footer-form-lable">
+                    <input class="footer-email-input" type="email" name="email-addres" placeholder="E-mail">
+                </label>
+                <button class="footer-button-form" type="submit">
+                    Subscribe
+                    <svg class="footer-form-icon" width="24" height="24">
+                        <use href="./images/icons.svg#icon-send"></use>
+                    </svg>
+                </button>
+            </form>
+        </div>
+        <div class="backdrop is-open">
+            <div class="modal-container">
+                <button type="button" class="btn-close-modal">
+                    <svg class="svg-close-overlay" width="8" height="8">
+                        <use href="./images/icons.svg#icon-close"></use>
+                    </svg>
+                </button>
+                <p class="modal-title">Leave your contacts and we will call you back</p>
+                <form>
+                    <div class="form-items">
+                        <label class="label-name" for="user-name">Name</label>
+                        <div class="form-input-box">
+                            <input class="form-input" type="text" name="user-name" id="user-name">
+                            <svg class="svg-input-icon" width="18" height="24">
+                                <use href="./images/icons.svg#icon-person"></use>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="form-items">
+                        <label class="label-name" for="user-phone">Phone</label>
+                        <div class="form-input-box">
+                            <input class="form-input" type="tel" name="user-phone" id="user-phone">
+                            <svg class="svg-input-icon" width="18" height="24">
+                                <use href="./images/icons.svg#icon-phone"></use>
+                            </svg>
+
+                        </div>
+                    </div>
+
+                    <div class="form-items">
+                        <label class="label-name" for="user-email">Email</label>
+                        <div class="form-input-box">
+                            <input class="form-input" type="email" name="user-email" id="user-email">
+                            <svg class="svg-input-icon" width="18" height="24">
+                                <use href="./images/icons.svg#icon-email"></use>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="form-textarea">
+                        <label class="label-name" for="user-comment">Comment</label>
+                        <textarea class="modal-textarea" name="user-comment" id="user-comment" rows="5"
+                            placeholder="Text input"></textarea>
+                    </div>
+
+                    <div class="checkbox-container">
+                        <input class="checkbox visually-hidden" type="checkbox" name="user-privacy" value="true"
+                            id="user-privacy" />
+                        <label class="label-checkbox" for="user-privacy">
+                            <span class="span-checkbox">
+                                <svg class="checkbox-icon" width="10" height="8">
+                                    <use href="./images/icons.svg#icon-checkmark"></use>
+                                </svg> </span>I accept the terms and conditions of the
+                            <a class="link-privacy-policy" href="#">Privacy Policy</a>
+                        </label>
+                    </div>
+                    <button class="btn-modal-send" type="submit">Send</button>
+                </form>
+            </div>
+        </div>
     </footer>
 </body>
 
