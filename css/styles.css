@@ -119,6 +119,28 @@ ol {
     align-items: center;
 }
 
+@media screen and (min-width: 768px) {
+
+    .solutions {
+        max-width: 768px;
+        padding: 112px 0;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/people-office-tab.jpg);
+    }
+
+}
+
+@media screen and (min-devise-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .image-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/people-office-tab-2x.jpg);
+    }
+}
+
 .container {
     width: 1158px;
     padding: 0 15px;
@@ -158,11 +180,21 @@ ol {
     height: 600px;
     padding-top: 188px;
     padding-bottom: 188px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-image.jpg);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-mob.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin: 0 auto;
+}
+
+@media screen and (min-devise-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .image-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/people-office-mob-2x.jpg);
+    }
 }
 
 .solutions-title {
@@ -280,6 +312,11 @@ img {
     border-top: none;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+    .team-section>.container {
+        max-width: 584px;
+    }
+}
 
 .ourteam {
     background: #F4F4FD;
@@ -459,6 +496,12 @@ img {
     letter-spacing: 0.02em;
 }
 
+
+@media screen and (min-width: 768px) and (max-width: 1157px) {
+    .footer-container {
+        max-width: 584px;
+    }
+}
 
 .footer {
     background: #2E2F42;
