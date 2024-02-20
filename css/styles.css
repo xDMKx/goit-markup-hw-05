@@ -1132,12 +1132,6 @@ img {
         text-align: left;
     }
 
-    @media screen and (min-width: 768px) and (max-width: 1157px) {
-        .ourteam>.container {
-            max-width: 584px;
-        }
-    }
-
     .team-list {
         display: flex;
         flex-direction: row;
